@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { CategoryFetch } from '~/REST-API-client';
+import { CategoryFetch } from '../../REST-API-client';
 import CircularProgress from '@mui/material/CircularProgress';
 
 

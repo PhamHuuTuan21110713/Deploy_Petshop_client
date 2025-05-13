@@ -1,8 +1,5 @@
 import myStyle from './ProductItem.module.scss'
-
 import Rating from '@mui/material/Rating';
-
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { useNavigate } from 'react-router-dom';

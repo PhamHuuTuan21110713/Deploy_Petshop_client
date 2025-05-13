@@ -2,8 +2,8 @@ import { Box, Typography } from "@mui/material"
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import { useAuth } from "../Authentication/Authentication";
 import { useState, useEffect, useContext } from "react";
-import { NotifyFetch } from "~/REST-API-client";
-import { ChatContext } from "~/pages/ChatProvider/ChatProvider";
+import { NotifyFetch } from "../../REST-API-client";
+import { ChatContext } from "../../pages/ChatProvider/ChatProvider";
 const Notify = () => {
     const auth = useAuth();
     const [countBookingNoti, setCountBookingNoti] = useState(0);

@@ -2,21 +2,21 @@
 // CSS
 import mystyles from './Appbar.module.scss';
 
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
 // Function components
-import ShoppingCart from '~/components/ShoppingCard/ShoppingCard';
-import Profile from '~/components/Profile/Profile';
-import MenuAppbar from '~/components/MenuAppbar/MenuAppbar';
+import ShoppingCart from '../../components/ShoppingCard/ShoppingCard';
+import Profile from '../../components/Profile/Profile';
+import MenuAppbar from '../../components/MenuAppbar/MenuAppbar';
 import { ResponsiveContainer, ResponsiveLogo } from '../responsive'
-import Category from '~/components/Category/Category';
+import Category from '../../components/Category/Category';
 
 import Box from '@mui/material/Box';
 import PetsIcon from '@mui/icons-material/Pets';
-import ModeSelect from '~/components/ModeSelect/ModeSelect';
+// import ModeSelect from '~/components/ModeSelect/ModeSelect';
 
 import { Divider } from '@mui/material';
-import { useAuth } from "~/components/Authentication/Authentication";
+import { useAuth } from "../../components/Authentication/Authentication";
 import { Link } from 'react-router-dom';
 import Search from './Search';
 import Notify from './Notify';

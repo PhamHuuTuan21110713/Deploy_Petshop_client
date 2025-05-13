@@ -1,5 +1,5 @@
 import { useState, createContext, useContext, useEffect } from "react";
-import { CheckTokenFetch, UserFetch } from "~/REST-API-client";
+import { CheckTokenFetch, UserFetch } from "../../REST-API-client";
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {

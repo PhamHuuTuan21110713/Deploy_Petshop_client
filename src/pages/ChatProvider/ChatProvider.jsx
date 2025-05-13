@@ -1,6 +1,6 @@
 
 import { createContext, useCallback, useEffect, useState } from "react"
-import { useAuth } from "~/components/Authentication/authentication";
+import { useAuth } from "~/components/Authentication/Authentication";
 import { ChatFetch, MessageFetch, NotifyFetch, UserFetch } from "~/REST-API-client";
 import { io } from "socket.io-client";
 import { SOCKET_URL } from "~/constants";

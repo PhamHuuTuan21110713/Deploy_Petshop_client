@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Typography, Button, TextField, Rating } from '@mui/material';
 //import { createNewReview, feachReviewByProductId } from "~/apis";
-import { ReviewFetch } from '~/REST-API-client/index'
-import { useAuth } from "~/components/Authentication/Authentication";
-import { ToastContainer, toast } from 'react-toastify';
+import { ReviewFetch } from '../../REST-API-client'
+import { useAuth } from "../../components/Authentication/Authentication";
+import { toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 const Review = ({ entityId, type }) => {

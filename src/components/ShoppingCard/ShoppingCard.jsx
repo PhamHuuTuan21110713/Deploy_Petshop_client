@@ -10,8 +10,8 @@ import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
 import CartContent from './CartContent/CartContent';
 import Divider from '@mui/material/Divider';
-import { useAuth } from "~/components/Authentication/Authentication";
-import { UserFetch } from '~/REST-API-client';
+import { useAuth } from "../../components/Authentication/Authentication";
+import { UserFetch } from '../../REST-API-client';
 
 const ShoppingCart = () => {
     const { user } = useAuth();

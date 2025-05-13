@@ -7,7 +7,7 @@ import SubjectIcon from '@mui/icons-material/Subject';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import SubCategory from './SubCategory';
-import { CategoryFetch } from '~/REST-API-client';
+import { CategoryFetch } from '../../REST-API-client';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 // const data = [

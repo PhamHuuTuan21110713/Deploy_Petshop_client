@@ -1,15 +1,15 @@
-import { Box, Typography, Tooltip, Button } from "@mui/material";
+import { Box, Typography, Tooltip } from "@mui/material";
 import myStyle from "./ChatBox.module.scss";
 import { useState, useContext, useRef, useEffect } from "react";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
-import { ChatContext } from "~/pages/ChatProvider/ChatProvider";
+import { ChatContext } from "../../pages/ChatProvider/ChatProvider";
 import { useAuth } from "../Authentication/Authentication";
-import { ADMIN_ID } from "~/utils/constants";
+import { ADMIN_ID } from "../../utils/constants";
 import dayjs from "dayjs";
 import InputEmoji from "react-input-emoji";
 import SendIcon from '@mui/icons-material/Send';
-import { ChatFetch, NotifyFetch } from "~/REST-API-client";
+import { ChatFetch, NotifyFetch } from "../../REST-API-client";
 
 const ChatBox = () => {
     const [isOpen, setIsOpen] = useState(false);

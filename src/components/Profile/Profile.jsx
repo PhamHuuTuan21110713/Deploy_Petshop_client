@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 import Avatar from '@mui/material/Avatar';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
@@ -9,8 +9,8 @@ import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import { NavLink } from "react-router-dom"
-import { useAuth } from "~/components/Authentication/Authentication";
-import { LogoutFetch } from '~/REST-API-client';
+import { useAuth } from "../../components/Authentication/Authentication";
+import { LogoutFetch } from '../../REST-API-client';
 const linkStyle = ({ isActive }) => {
 
     return {
