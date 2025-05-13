@@ -1,5 +1,5 @@
 import { Box, Typography, Tooltip, Button } from "@mui/material";
-import myStyle from "./Chatbox.module.scss";
+import myStyle from "./ChatBox.module.scss";
 import { useState, useContext, useRef, useEffect } from "react";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
