@@ -15,18 +15,18 @@ const QuickShop = () => {
             <ResonsiveQuickShopContainer sx={{ display: 'flex', flexWrap: 'wrap', width: '35%', margin: 'auto', gap: 2 }}>
                 <Tooltip title="Mua sắm cho Chó">
                     <Box onClick={() => navigate("/do-thu-cung/do-cho-cho")} className={myStyle.item} sx={{ backgroundColor: '#99ce58' }}>
-                        <img src={`${publicUrl}/images/quickshop/dog.png`} />
+                        <img src={`images/quickshop/dog.png`} />
                     </Box>
 
                 </Tooltip>
                 <Tooltip title="Mua sắm cho mèo">
                     <Box onClick={() => navigate("/do-thu-cung/do-cho-meo")} className={myStyle.item} sx={{ backgroundColor: '#e22f57' }}>
-                        <img src={`${publicUrl}/images/quickshop/cat.png`} />
+                        <img src={`images/quickshop/cat.png`} />
                     </Box>
                 </Tooltip>
                 <Tooltip title="Sử dụng dịch vụ">
                     <Box onClick={() => navigate("/do-thu-cung/do-cho-cho")} className={myStyle.item} sx={{ backgroundColor: '#fec619' }}>
-                        <img src={`${publicUrl}/images/quickshop/phukien.png`} />
+                        <img src={`images/quickshop/phukien.png`} />
                     </Box>
                 </Tooltip>
             </ResonsiveQuickShopContainer>
